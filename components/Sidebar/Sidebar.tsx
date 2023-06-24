@@ -25,7 +25,7 @@ export const Sidebar: FC = () => {
                                 href={href}
                                 className={[
                                     'hover:text-blue-500 hover:underline',
-                                    label == '.team'
+                                    label == '.chat'
                                         ? 'text-blue-500'
                                         : 'text-notblack',
                                 ].join(' ')}
