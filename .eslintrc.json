@@ -1,0 +1,24 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2021
+    },
+    "extends": [
+        "plugin:v3xlabs/recommended",
+        "plugin:tailwindcss/recommended"
+    ],
+    "ignorePatterns": [
+        "!**/*"
+    ],
+    "plugins": [
+        "v3xlabs",
+        "tailwindcss"
+    ],
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "unicorn/todo-comments": "off",
+        "unicorn/expiring-todo-comments": "off"
+    }
+}
